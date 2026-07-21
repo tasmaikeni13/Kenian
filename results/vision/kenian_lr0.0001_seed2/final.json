@@ -1,0 +1,20 @@
+{
+  "task": "vision",
+  "optimizer": "k1",
+  "lr": 0.0001,
+  "seed": 2,
+  "steps": 40000,
+  "batch": 128,
+  "wd": 0.05,
+  "nparam": 37938788,
+  "backend": "triton",
+  "k_probe": 10,
+  "rho": 0.1,
+  "beta3": 0.95,
+  "clip": 1.0,
+  "val_loss": 3.073947961425781,
+  "val_acc": 0.5511,
+  "step": 40000,
+  "val_kind": "final",
+  "total_wall_s": 6543.705643415451
+}

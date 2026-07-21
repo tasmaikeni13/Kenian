@@ -1,0 +1,15 @@
+{
+  "task": "vision",
+  "optimizer": "kenian",
+  "lr": 0.0001,
+  "seed": 1,
+  "steps": 40000,
+  "batch": 128,
+  "wd": 0.05,
+  "nparam": 37938788,
+  "backend": "triton",
+  "probe_interval": 10,
+  "correction_cap": 0.1,
+  "beta3": 0.95,
+  "clip": 1.0
+}

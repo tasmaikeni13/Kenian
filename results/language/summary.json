@@ -1,0 +1,24 @@
+{
+  "finals": {
+    "adamw": {
+      "val_loss_mean": 3.1824593556372456,
+      "val_loss_std": 0.002578686240603869,
+      "n": 3,
+      "val_acc_mean": null
+    },
+    "kenian": {
+      "val_loss_mean": 3.2124067788137274,
+      "val_loss_std": 0.006358386843641775,
+      "n": 3,
+      "val_acc_mean": null
+    }
+  },
+  "kenian_vs_adamw": {
+    "delta_val_loss": -0.029947423176481802,
+    "SE_d": 0.004851737110606702,
+    "floor": 0.01,
+    "2SE": 0.009703474221213404,
+    "meets_margin": false,
+    "verdict": "does NOT beat AdamW by pre-registered margin"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "task": "language",
+  "optimizer": "adamw",
+  "lr": 0.001,
+  "seed": 1,
+  "steps": 40000,
+  "batch": 24,
+  "wd": 0.1,
+  "nparam": 39015168,
+  "backend": "triton",
+  "k_probe": 10,
+  "rho": 0.5,
+  "beta3": 0.95,
+  "clip": 1.0,
+  "val_loss": 3.180052475068579,
+  "val_ppl": 24.048015440214787,
+  "step": 40000,
+  "val_kind": "final",
+  "total_wall_s": 5982.589594364166
+}
